@@ -1,0 +1,94 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url('image1.jpg'); /* Path to your image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-attachment: fixed;
+    opacity: 1; /* Adjust opacity for fade effect */
+    z-index: -1; 
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation Styling */
+nav ul {
+    padding: 0;
+    list-style: none;
+    background-color: #444;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Image Circle Class */
+.image-circle {
+    border-radius: 80%;
+    width: 300px;
+    height: 300px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #514e4e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Social Media Icons */
+.socials img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+}
+
+table td {
+    padding: 1px;
+}
+
+#intro {
+    background-color: white;
+    padding: 20px; 
+    opacity:0.6;
+}
+
+#intro:hover {
+    background-color: white;
+    opacity:1; 
+}
+
